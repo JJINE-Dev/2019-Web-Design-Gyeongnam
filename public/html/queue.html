@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3abda6768c.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <title>부산 국제 뮤직 페스티벌 뮤직 플레이어</title>
+</head>
+
+<body>
+<div class="wrap">
+    <div class="main-wrapper">
+        <nav>
+            <ul class="nav-header">
+                <li><a data-href="index.html" class="link">Home</a></li>
+                <li><a data-href="library.html" class="link">Library</a></li>
+                <li><a data-href="queue.html" class="link">Queue</a></li>
+                <li><a href="#pop1" >Log In</a></li>
+            </ul>
+        </nav>
+        <div class="data-wrapper">
+            <div class="que-wrapper">
+                <div class="que-box">
+                    <div class="que-img"></div>
+                    <div class="que-play">
+                        <!-- <img class="image" src="./covers/180˚.jpg" alt=""> -->
+
+                        <div class="play-img"></div>
+                        <i class="fa fa-cc cc" title="가사 띄우기 버튼"></i>
+                        <i class="fa fa-backward prev" title="이전 곡 버튼"></i>
+                        <i class="fa fa-play play" title="재생 버튼"></i><!-- <i class="fa fa-pause"></i> -->
+                        <i class="fa fa-forward next" title="다음 곡 버튼"></i>
+                        <i class="fa fa-repeat state" data-state="0" title="반복 재생 버튼"></i>
+                    </div>
+                    <div class="list-box">
+                        <!-- <div class="title">22</div>
+                        <div class="art">22</div> -->
+                        <div class="list-grid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <input type="range" class="slider" min=0>
+            <div class="jus">
+                <span class="left time">1</span>
+                <span class="right time">1</span>
+            </div>
+            <div class="play-nav">
+                <div class="play-img">
+                    <div class="image"></div>
+                </div>
+                <div class="text-box2">
+                    <span>안녕</span>
+                    <p>아이유</p>
+                </div>
+                <div class="list-box">
+                    <div class="list-grid">
+                        
+                    </div>
+                </div>      
+                <div class="player-btn">
+                    <i class="fa fa-cc cc" title="가사 띄우기 버튼"></i>
+                    <i class="fa fa-backward prev" title="이전 곡 버튼"></i>
+                    <i class="fa fa-play play" title="재생 버튼"></i><!-- <i class="fa fa-pause"></i> -->
+                    <i class="fa fa-forward next" title="다음 곡 버튼"></i>
+                    <i class="fa fa-repeat state" data-state="0" title="반복 재생 버튼"></i>
+                </div>
+                <i class="fa fa-volume-up"></i>
+                <div class="vol">
+                    <input type="range" class="sound" min=0; step="0.01">
+                </div>
+            </div>
+        </footer>
+</div>
+</body>
+
+</html>
